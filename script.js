@@ -1,5 +1,5 @@
 // Generate a random number between -10^10 and 10^10
-const randomNumber = Math.floor(Math.random() * (2 * 10**10 + 1)) - 10**10;
+const randomNumber = Math.floor(Math.random() * (2 * 10**20 + 1)) - 10**20;
 console.log(randomNumber); // For debugging purposes
 
 document.getElementById('guessForm').addEventListener('submit', function(event) {
