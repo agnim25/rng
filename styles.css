@@ -1,0 +1,58 @@
+body {
+    background: #FCE8D6;
+    font-family: "Teachers", "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.box {
+    margin: 10px 0;
+    align-items: center;
+    font-size: 16px;
+}
+
+#car-box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#middle-car {
+    object-fit: fill;
+    width: 0;
+    height: 96px;
+}
+
+#guessInput {
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding: 5px;
+    font-family: "Teachers", "Roboto", sans-serif;
+    font-size: 30px;
+    color: #FFA507;
+    background: none;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+#guessInput:hover, #guessInput:focus {
+    outline: none;
+}
+
+#car-container {
+    position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
