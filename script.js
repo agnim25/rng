@@ -1,7 +1,7 @@
 // Generate a random number between -10^10 and 10^10
 // const randomNumber = Math.floor(Math.random() * (2 * 10**20 + 1)) - 10**20;
 // console.log(randomNumber); // For debugging purposes
-const randomNumber = 65919228044378374235;
+const randomNumber = 65919228044378376508;
 
 const inputElement = document.querySelector("#guessInput");
 const audio = document.getElementById("myAudio");
